@@ -1,0 +1,1854 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, width=device-width">
+    <title>Dr.Sheberg</title>
+
+    <link rel="stylesheet" href="fonts/fonts.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/adaptive.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+    <style>
+        .js_errorMessage {
+            z-index: 9999;
+        }
+    </style>
+
+    <script src="http://js.salesup-crm.com/channels/js/channels.js" defer></script>
+    <!-- Facebook Pixel Code -->
+    <script>
+        ! function (f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '379870565953019');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=379870565953019&ev=PageView&noscript=1" /></noscript>
+    <!-- End Facebook Pixel Code -->
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140616641-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-140616641-1');
+    </script>
+</head>
+
+<body>
+
+    <div class="main rL hid">
+        <div class="fp_window">
+            <header class="header">
+                <div class="inner d-flex">
+                    <div class="row d-flex flex_vcenter flex_just w100">
+                        <div class="left_side d-flex flex_vcenter">
+                            <div class="logo">
+                                <span class="db rL h100 contain" style="background-image: url(img/logo.png);"></span>
+                            </div>
+                            <p class="slogan rL">
+                                Уникальная омолаживающая косметика. <br>
+                                Молодость можно вернуть!
+                            </p>
+
+                        </div>
+                        <div class="right_side">
+                            <!--<a href="#" class="phone">0 800 337 517</a>-->
+                            <a class="modal-btn">Обратный звонок</a>
+                        </div>
+                    </div>
+
+                </div>
+            </header>
+            <div class="content">
+                <div class="inner">
+                    <div class="row d-flex flex_just">
+                        <div class="left_side">
+                            <h1>
+                                Избавьтесь от глубоких морщин <span class="green">за 30 дней</span>
+
+                            </h1>
+                            <p>
+                                АЛЬТЕРНАТИВА ИНЪЕКЦИЯМ КРАСОТЫ <br>И ПРОЦЕДУРАМ ЭСТЕТИЧЕСКОЙ МЕДИЦИНЫ
+                            </p>
+                            <div class="images">
+
+                                <img class="lazy" data-original="img/header_prod/prod1.png">
+                                
+                            </div>
+                        </div>
+                        <form action="http://cc.salesup-crm.com/PostOrder.aspx" method="post" id="first-form" class="big-form alCenter">
+                            <h2>Внимание. Акция!</h2>
+                            <p>Осталось <span class="green">38</span> акционных упаковок. </p>
+                           <div class="countes d-flex">
+                                    <div class="w50 h100 old d-flex">
+                                        Обычная цена
+                                        <span class="">999грн</span>
+                                    </div>
+                                    <div class="w50 h100 new d-flex">
+                                        Цена со скидкой
+                                        <span>657грн</span>
+                                    </div>
+                                </div>
+                            <div class="countdown">
+                            </div>
+
+                            <div class="input-block">
+                                <input type="text" class="inputbox" placeholder="Ваше имя" name="name" required></div>
+                            <div class="input-block">
+                                <input type="text" placeholder="Ваш номер" name="phone" class="numbox inputbox phone-mask" required></div>
+
+                            <button type="submit" class="btn2 db w100">ЗАКАЗАТЬ СО СКИДКОЙ</button>
+
+                            <input name="product_id" type="hidden" value="6972" />
+                            <input name="result_url" type="hidden" value="" />
+                            <input name="referrer" type="hidden" value="" />
+                            <input name="order_url" type="hidden" value="" />
+                            <input name="transaction_id" type="hidden" value="0" />
+                            <input name="partner_id" type="hidden" value="0" />
+                            <input name="link_id" type="hidden" value="0" />
+                        </form>
+                        <script>
+                            var form1 = document.getElementById("first-form");
+                            form1.addEventListener("submit", function (event) {
+                                var name = form1.elements.name.value;
+                                var phone = form1.elements.phone.value;
+            
+                                var memory5 = window.location.search;
+            
+                                if (memory5) {
+                                    var result_url = "http://attlas.com.ua/drsheberg/order.html" + memory5 + "&name=" + name +
+                                        "&phone=" + phone;
+                                } else {
+                                    var result_url = "http://attlas.com.ua/drsheberg/order.html?name=" + name + "&phone=" + phone;
+                                }
+                                form1.elements.result_url.value = result_url;
+                            });
+                        </script>
+                    </div>
+                    <div class="buttons-block d-flex">
+                        <div class="item">
+                            <p class="butt_1">
+                                Подходит для женщин <br>
+                                <i class="on_mobile"></i>
+                                любого возраста
+
+                            </p>
+                            <div class="round-btn round"></div>
+                        </div>
+                        <div class="item">
+                            <p class="butt_2">
+                                100% органическая <br> <i class="on_mobile"></i>
+                                натуральная косметика
+
+                            </p>
+                            <div class="round-btn round"></div>
+                        </div>
+                        <div class="item">
+                            <p class="butt_3">
+                                Инновационная формула <br> разработана учеными <i class="on_mobile"></i> Швейцарии,
+                                <br>Франции и Украины
+
+                            </p>
+                            <div class="round-btn round"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="rejuvenation__block">
+            <div class="inner">
+                <div class="row d-flex w100 flex_just">
+                    <div class="left_side">
+                        <h2>Омоложение <span class="green">до 10 лет</span>
+                            <br>без инъекций и операций!</h2>
+                        <div class="paragraph">
+                            Главное действующее <br>
+                            вещество — <div class="in rL cp">
+                                <span class="upp"><i>СКВАЛЕН</i></span>
+
+                                <div class="info-block abs hide">
+                                    <p>
+                                        Это уникальное <b>природное</b> биологически активное в<b>ещество, естественный
+                                            компонент защитного слоя человеческой кожи</b> (до 12-14%), добытое из семян
+                                        зародышей Амаранта по уникальной технологии. Синтезируясь через поры с кожным
+                                        секретом, образует защитную естественную гидролипидную мантию.
+                                    </p>
+                                    <p>
+                                        Сквален обладает уникальной способностью к <b>насыщению клеток кислородом</b>,
+                                        глубоко впитываться в дерму, максимально ускоряя при этом проникновение
+                                        растворенных в нем веществ вглубь кожи. Таким образом он омолаживает клетки и
+                                        ведёт борьбу со свободными радикалами.
+                                    </p>
+                                    <p>
+                                        Благодаря совместным разработкам ученых <b>Швейцарии, Франции и Украины</b> мы
+                                        получили уникальную формулу интеграции сквалена с другими микроэлементами. Суть
+                                        разработки - работа с возрастными изменениями изнутри, именно поэтому эффект
+                                        схожий с тем что дает инъекционное лечение.
+                                    </p>
+                                    <div class="close-mark cp rotate contain">
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <ul>
+                            <li><b> Увеличивает</b> синтез гиалуроновой кислоты <b>в 4 раза</b></li>
+                            <li><b>Увеличивает количество</b> и качество коллагена</li>
+                            <li><b>Комплексно омолаживает</b> все слои кожи</li>
+                        </ul>
+                    </div>
+                    <div class="video_block">
+                        <a href="https://www.youtube.com/watch?v=5CIzS26mrvc&t&amp;autoplay=1&amp;rel=0&amp;controls=0&amp;showinfo=0"
+                            data-fancybox class="db rL cover" style="background-image: url(img/video-preview.jpg);"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="natural-components rL">
+            <div class="parallax" id="scene2">
+                <div class="layer paralax-layer" data-depth="-0.10">
+
+                    <img class="lazy" data-original="img/parallax2.png" alt="">
+                </div>
+            </div>
+            <div class="inner">
+                <div class="row">
+                    <h3>
+                        <span class="green"> Dr.Sheberg Anti Age</span> — уникальное сочетание природных компонентов и
+                        современных биотехнологий
+                    </h3>
+                    <div class="items-block">
+                        <ul>
+                            <li class="list-title d-flex">
+                                <span class="value">
+                                    01
+                                </span>
+                                <span class="title">
+                                    Эффективен против <br>
+                                    старения кожи
+                                </span>
+                            </li>
+                            <li>Запускает процессы <b>омоложения</b></li>
+                            <li>Обладает мощным <b>лифтинг-эффектом</b></li>
+                            <li>Полностью разглаживает даже глубокие морщины</li>
+                            <li>Усиливает регенерацию на клеточном уровне</li>
+                        </ul>
+                        <ul>
+                            <li class="list-title d-flex">
+                                <span class="value">
+                                    02
+                                </span>
+                                <span class="title">
+                                    Улучшает внешний вид
+                                </span>
+                            </li>
+                            <li>Подтягивает овал лица</li>
+                            <li>Интенсивно очищает, питает и увлажняет</li>
+                            <li>Избавляет от отечности и темных кругов под глазами</li>
+                            <li><b>Осветляет</b> пигментацию, выравнивает цвет лица</li>
+                        </ul>
+                        <ul>
+                            <li class="list-title d-flex">
+                                <span class="value">
+                                    03
+                                </span>
+                                <span class="title">
+                                    насыщает кожу <br>
+                                    полезными веществами
+                                </span>
+                            </li>
+                            <li><b>Стимулирует</b> антиоксидантные процессы</li>
+                            <li><b>Усиливает</b> и продлевает действие витаминов А, Е и кофермента коэнзима Q10</li>
+                            <li><b>Усиливает</b> клеточный иммунитет и рост клеток</li>
+                            <li><b>Способствует</b> глубокому проникновению в кожу витаминов и микроэлементов.</li>
+                        </ul>
+                        <ul>
+                            <li class="list-title d-flex">
+                                <span class="value">
+                                    04
+                                </span>
+                                <span class="title">
+                                    Подходит всем
+                                </span>
+                            </li>
+                            <li>Гипоаллергенная, без парабенов, красителей и наполнителей </li>
+                            <li>Подходит для любого возраста и типа кожи</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="block2 card-block">
+            <div class="inner">
+                <div class="row">
+                    <div class="ib block2_ib d-flex flex_just ">
+                        <div class="ib-item block2_ib-item">
+                            <div class="block2_ib-item_img">
+                                <div class="block2_ib-item_container-img">
+                                    <img class="lazy" data-original="src/b2_ico-1.png" alt="">
+
+                                </div>
+                            </div>
+                            <p><b>Без</b> инъекций и <br> пластики</p />
+                        </div>
+                        <div class="ib-item block2_ib-item">
+                            <div class="block2_ib-item_img">
+                                <div class="block2_ib-item_container-img">
+                                    <img class="lazy" data-original="src/b2_ico-2.png" alt="">
+                                </div>
+                            </div>
+                            <p><b>Без</b> дорогостоящих <br> процедур</p>
+                        </div>
+                        <div class="ib-item block2_ib-item">
+                            <div class="block2_ib-item_img">
+                                <div class="block2_ib-item_container-img">
+                                    <img class="lazy" data-original="src/b2_ico-3.png" alt="">
+                                </div>
+                            </div>
+                            <p><b>Без</b> изменений<br> мимики</p>
+                        </div>
+                        <div class="ib-item block2_ib-item">
+                            <div class="block2_ib-item_img">
+                                <div class="block2_ib-item_container-img">
+                                    <img class="lazy" data-original="src/b2_ico-4.png" alt="">
+                                </div>
+                            </div>
+                            <p><b>Без</b> привыкания и <br> побочных действий</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="what_includes">
+            <div class="inner">
+                <h2 class="alCenter">
+                    ЧТО ВХОДИТ В КОМПЛЕКС <br>
+                    <span class="green">DR. SHEBERG ANTI AGE</span>
+                </h2>
+                <div class="row ">
+                    <div class="fleft w33 3">
+                        <div class="item">
+                            <div class="image-block d-flex flex_center">
+                                <img class="lazy abs b0" data-original="img/catalog/1.png" alt="">
+
+                            </div>
+                            <h4>Ночной гель-крем</h4>
+                            <p>со скваленом и коллагеном 50 ml</p>
+                            <div class="price">
+                                <span class="new"> 699 грн.</span>
+                                <span class="old"> 999. 00 грн.</span>
+                            </div>
+                            <div class="buttons-block d-flex flex_just">
+                                <a class="btn upp">подробнее</a>
+                                <a class="btn upp prod1">ЗАКАЗАТЬ</a>
+                            </div>
+                            <div class="value abs l0">-30%</div>
+                        </div>
+                    </div>
+                    <div class="fleft w33 3">
+                        <div class="item">
+                            <div class="image-block d-flex flex_center">
+                                <img class="lazy abs b0" data-original="img/catalog/2.png" alt="">
+                            </div>
+                            <h4>Дневной гель-крем</h4>
+                            <p>со скваленом и гиалуроновой кислотой 50 ml</p>
+                            <div class="price">
+                                <span class="new"> 657 грн.</span>
+                                <span class="old"> 999. 00 грн.</span>
+                            </div>
+                            <div class="buttons-block d-flex flex_just">
+                                <a class="btn upp">подробнее</a>
+                                <a class="btn upp prod2">ЗАКАЗАТЬ</a>
+                            </div>
+                            <div class="value abs l0">-30%</div>
+                        </div>
+                    </div>
+                    <div class="fleft w33 3">
+                        <div class="item">
+                            <div class="image-block d-flex flex_center">
+                                <img class="lazy abs b0" data-original="img/catalog/3.png" alt="">
+                            </div>
+                            <h4>Масло гидрофильное</h4>
+                            <p>глубокое очищение 150 ml</p>
+                            <div class="price">
+                                <span class="new"> 499 грн.</span>
+                                <span class="old"> 713. 00 грн.</span>
+                            </div>
+                            <div class="buttons-block d-flex flex_just">
+                                <a class="btn upp">подробнее</a>
+                                <a class="btn upp prod3">ЗАКАЗАТЬ</a>
+                            </div>
+                            <div class="value abs l0">-30%</div>
+                        </div>
+                    </div>
+                    <div class="clear"> </div>
+                </div>
+            </div>
+        </div>
+        <div class="block2 round_bg block">
+            <div class="block2_limit limit">
+
+                <div class="top-block rL fright">
+                    <h2>После 25 лет возрастные
+                        изменения неизбежны
+                    </h2>
+                    <ul>
+                        <li><b>Уменьшается</b> выработка коллагена и эластина</li>
+                        <li><b>Кожа теряет</b> упругость, становится дряблой</li>
+                        <li>Появляются <b>глубокие морщины</b></li>
+                    </ul>
+                </div>
+                <div class="clear"></div>
+
+                <div class="block2_changes">
+                    <div class="block2_changes_top">
+                        <div class="ib block2_changes_top_ib">
+                            <div class="ib-item b2_ib_item-1">
+                                <span style="color: #8fd44d;">30</span>
+
+                                <img class="lazy" data-original="src/skin-1.png" alt="">
+                                <div class="shadow"></div>
+                            </div>
+                            <div class="ib-item b2_ib_item-2">
+                                <span style="color: #538d1f;">45</span>
+                                <img class="lazy" data-original="src/skin-2.png" alt="">
+                                <div class="shadow"></div>
+                            </div>
+                            <div class="ib-item b2_ib_item-3">
+                                <span style="color: #2c5507;">60</span>
+                                <img class="lazy" data-original="src/skin-3.png" alt="">
+                                <div class="shadow"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block2_changes_bot">
+                        <div class="text-right abs r0 t0 on_mobile"> уровень <br> коллагена падает</div>
+                        <img src="src/graph.png" alt="">
+                        <img src="src/lvl-1.gif" data-wow-delay="0.5s" data-wow-duration="1s" alt=""
+                            class="wow lvl lvl-1 fadeIn">
+                        <img src="src/lvl-2.gif" data-wow-delay="0.6s" data-wow-duration="1s" alt=""
+                            class="wow lvl lvl-2 fadeIn">
+                        <img src="src/lvl-3.gif" data-wow-delay="0.7s" data-wow-duration="1s" alt=""
+                            class="wow lvl lvl-3 fadeIn">
+
+
+                        <div class="graph_vertical_lbl"><b>Уровень коллагена</b></div>
+                        <div class="graph_horizontal_lbl">
+                            <span><b>Возраст</b></span>
+                            <span><b>30</b></span>
+                            <span><b>35</b></span>
+                            <span><b>40</b></span>
+                            <span><b>45</b></span>
+                            <span><b>50</b></span>
+                            <span><b>55</b></span>
+                            <span><b>60</b></span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="not_put_up ">
+
+            <div class="inner">
+                <div class="row d-flex">
+
+                    <div class="img_block flex_shrink rL">
+                        <div class="parallax" id="scene3">
+                            <div class="h100 w100 layer paralax-layer" data-depth="-0.10">
+                                <span class="db rL h100 contain" style="background-image: url(img/women-img.png);">
+                                </span>
+                                <div class="info-block abs">
+                                    <div class="dot">
+
+                                    </div>
+                                </div>
+                                <div class="info-block abs">
+                                    <div class="dot">
+
+                                    </div>
+                                </div>
+                                <div class="info-block abs">
+                                    <div class="dot">
+
+                                    </div>
+                                </div>
+                                <div class="info-block abs">
+                                    <div class="dot">
+
+                                    </div>
+                                </div>
+                                <div class="info-block abs">
+                                    <div class="dot">
+
+                                    </div>
+                                </div>
+                                <div class="info-block abs">
+                                    <div class="dot">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="right_side">
+                        <p>
+                            <span>После 25 лет уменьшается процент основных веществ синтезируемых нашим собственным
+                                организмом — </span><span class="green">Сквалена, Гиалуроновой кислоты и
+                                Коллагена</span> <span>Уровень выроботки неуклонно падает</span>.
+
+                        </p>
+                        <ul>
+                            <li class="d-flex">
+                                <span class="icon"> </span>
+                                Каждый день вы безвозвратно теряете <br> 1 млн клеток кожи.
+                            </li>
+                            <li class="d-flex">
+                                <span class="icon"> </span>
+                                Ухудшается защитный потенциал. Кожа <br> становится уязвима перед внешней агрессией.
+                            </li>
+                            <li class="d-flex">
+                                <span class="icon"> </span>
+                                Изменяются физические параметры кожи: <br> теряются тонус и эластичность.
+                            </li>
+                        </ul>
+
+                        <div class="offer-block rL alCenter">
+                            <div class="icon-block round abs">
+                                <span class="db rL h100 contain round"
+                                    style="background-image: url(img/offer-block-icon.png);"></span>
+                            </div>
+                            <h4>
+                                Но этот процесс можно <br> повернуть вспять!
+                            </h4>
+                            <p>
+                                Остановите непрерывное старение своей кожи и запустите мгновенное омоложение с
+                                комплексом <br><span class="">Dr. Sheberg Anti Age</span>
+                            </p>
+                            <a class="db btn2 main-prod">ЗАКАЗАТЬ СО СКИДКОЙ</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="not_put-title">
+                    Вы готовы с этим мирится?
+
+                </div>
+            </div>
+        </div>
+        <section class="benefits-section ">
+            <div class="inner rL">
+                <h2 class="alCenter">
+                    <span class="green">Эффективность косметики Dr.Sheberg</span> в досконально продуманной формуле
+                    интеграции всех активных компонентов и микроэлементов
+
+                </h2>
+                <p class="alCenter">
+
+                </p>
+                <div class="content rL">
+                    <div class="big_round round rL">
+                        <div class="dots abs h100 w100">
+                            <div class="dot">
+                            </div>
+                            <div class="dot">
+                            </div>
+                            <div class="dot">
+                            </div>
+                            <div class="dot">
+                            </div>
+
+                        </div>
+
+                        <div class="medium_round round rL h100 w100 box">
+                            <div class="dots abs h100 w100">
+                                <div class="dot">
+                                </div>
+                                <div class="dot">
+                                </div>
+                                <div class="dot">
+                                </div>
+                                <div class="dot">
+                                </div>
+                                <div class="dot">
+                                </div>
+                                <div class="dot">
+                                </div>
+
+                            </div>
+                            <div class="slider-wrapper  round">
+                                <div class="slider-one-item--infinity round">
+                                    <div class="item">
+                                        <div class="img_block db h100 round rL">
+                                            <span class="h100 db rL cover round tov2"
+                                                style="background-image: url(img/slider-prod1.jpg);">
+
+                                            </span>
+                                        </div>
+                                        <h3>ГЕЛЬ-КРЕМ ДНЕВНОЙ</h3>
+                                        <p>Альтернатива иньекциям <br>гиалуроновой кислоты.</p>
+                                    </div>
+                                    <div class="item">
+                                        <div class="img_block db h100 round rL">
+                                            <span class="h100 db rL cover round tov1"
+                                                style="background-image: url(img/slider-prod2.jpg);">
+
+                                            </span>
+                                        </div>
+                                        <h3>
+                                            ГЕЛЬ-КРЕМ НОЧНОЙ
+
+                                        </h3>
+                                        <p>
+                                            Альтернатива иньекциямм <br>коллагена.
+                                        </p>
+
+                                    </div>
+                                    <div class="item">
+                                        <div class="img_block db h100 round rL">
+                                            <span class="h100 db rL cover round tov3"
+                                                style="background-image: url(img/slider-prod3.jpg);">
+
+                                            </span>
+                                        </div>
+                                        <h3>
+                                            МАСЛО ГИДРОФИЛЬНОЕ
+
+                                        </h3>
+
+                                        <p>
+                                            Глубокое очищение и <br>увлажнение.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="slider-progress">
+                                    <div class="progress"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="icons__block abs t0 l0">
+                        <div class="item">
+                            <div class="icon rL round">
+                                <span class="db rL h100 contain round"
+                                    style="background-image: url(img/benefits-icons/1.jpg);">
+
+                                </span>
+
+                            </div>
+                            <div class="paragraph rL inb"><span>Сквален</span>
+                                <div class="hover-block abs">
+                                    Полученный из семян зародышей Амаранта, обеспечивает защитные функции эпидермиса,
+                                    максимально быстро и эффективно транспортирует другие активные вещества вглубь
+                                    кожного покрова. <br> <b>Используется только в самых лучших косметических средствах,
+                                        так как является достаточно дорогостоящим компонентом.</b>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="icon rL round">
+                                <span class="db rL h100 contain round"
+                                    style="background-image: url(img/benefits-icons/2.jpg);">
+
+                                </span>
+
+                            </div>
+                            <div class="paragraph rL inb"><span>Милиацин</span>
+                                <div class="hover-block abs">
+                                    Полученный из семян зародышей Амаранта, обеспечивает защитные функции эпидермиса,
+                                    максимально быстро и эффективно транспортирует другие активные вещества вглубь
+                                    кожного покрова. <br> <b>Используется только в самых лучших косметических средствах,
+                                        так как является достаточно дорогостоящим компонентом.</b>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="icon rL round">
+                                <span class="db rL h100 contain round"
+                                    style="background-image: url(img/benefits-icons/3.jpg);">
+
+                                </span>
+
+                            </div>
+                            <div class="paragraph rL inb"><span>Коллаген</span>
+                                <div class="hover-block abs">
+                                    Полученный из семян зародышей Амаранта, обеспечивает защитные функции эпидермиса,
+                                    максимально быстро и эффективно транспортирует другие активные вещества вглубь
+                                    кожного покрова. <br> <b>Используется только в самых лучших косметических средствах,
+                                        так как является достаточно дорогостоящим компонентом.</b>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="icon rL round">
+                                <span class="db rL h100 contain round"
+                                    style="background-image: url(img/benefits-icons/4.jpg);">
+
+                                </span>
+
+                            </div>
+                            <div class="paragraph rL inb"><span>Омега (3, 6, 9)</span>
+                                <div class="hover-block abs">
+                                    Полученный из семян зародышей Амаранта, обеспечивает защитные функции эпидермиса,
+                                    максимально быстро и эффективно транспортирует другие активные вещества вглубь
+                                    кожного покрова. <br> <b>Используется только в самых лучших косметических средствах,
+                                        так как является достаточно дорогостоящим компонентом.</b>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="icon rL round">
+                                <span class="db rL h100 contain round"
+                                    style="background-image: url(img/benefits-icons/5.jpg);">
+
+                                </span>
+
+                            </div>
+                            <div class="paragraph rL inb"><span>Гиалуроновая кислота</span>
+                                <div class="hover-block abs">
+                                    Полученный из семян зародышей Амаранта, обеспечивает защитные функции эпидермиса,
+                                    максимально быстро и эффективно транспортирует другие активные вещества вглубь
+                                    кожного покрова. <br> <b>Используется только в самых лучших косметических средствах,
+                                        так как является достаточно дорогостоящим компонентом.</b>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="icon rL round">
+                                <span class="db rL h100 contain round"
+                                    style="background-image: url(img/benefits-icons/6.jpg);">
+
+                                </span>
+
+                            </div>
+                            <div class="paragraph rL inb"><span>Омега 7 (масло макадамии)</span>
+                                <div class="hover-block abs">
+                                    Полученный из семян зародышей Амаранта, обеспечивает защитные функции эпидермиса,
+                                    максимально быстро и эффективно транспортирует другие активные вещества вглубь
+                                    кожного покрова. <br> <b>Используется только в самых лучших косметических средствах,
+                                        так как является достаточно дорогостоящим компонентом.</b>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="icon rL round">
+                                <span class="db rL h100 contain round"
+                                    style="background-image: url(img/benefits-icons/7.jpg);">
+
+                                </span>
+
+                            </div>
+                            <div class="paragraph rL inb"><span>Тимохинон</span>
+                                <div class="hover-block abs">
+                                    Полученный из семян зародышей Амаранта, обеспечивает защитные функции эпидермиса,
+                                    максимально быстро и эффективно транспортирует другие активные вещества вглубь
+                                    кожного покрова. <br> <b>Используется только в самых лучших косметических средствах,
+                                        так как является достаточно дорогостоящим компонентом.</b>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="icon rL round">
+                                <span class="db rL h100 contain round"
+                                    style="background-image: url(img/benefits-icons/8.jpg);">
+
+                                </span>
+
+                            </div>
+                            <div class="paragraph rL inb"><span>Витамин E <br>
+                                    (Токоферол)</span>
+                                <div class="hover-block abs">
+                                    Полученный из семян зародышей Амаранта, обеспечивает защитные функции эпидермиса,
+                                    максимально быстро и эффективно транспортирует другие активные вещества вглубь
+                                    кожного покрова. <br> <b>Используется только в самых лучших косметических средствах,
+                                        так как является достаточно дорогостоящим компонентом.</b>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item reverse">
+                            <div class="icon rL round">
+                                <span class="db rL h100 contain round"
+                                    style="background-image: url(img/benefits-icons/9.jpg);">
+
+                                </span>
+
+                            </div>
+                            <div class="paragraph rL inb"><span>Биотин (B7)</span>
+                                <div class="hover-block abs">
+                                    Полученный из семян зародышей Амаранта, обеспечивает защитные функции эпидермиса,
+                                    максимально быстро и эффективно транспортирует другие активные вещества вглубь
+                                    кожного покрова. <br> <b>Используется только в самых лучших косметических средствах,
+                                        так как является достаточно дорогостоящим компонентом.</b>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item reverse">
+                            <div class="icon rL round">
+                                <span class="db rL h100 contain round"
+                                    style="background-image: url(img/benefits-icons/10.jpg);">
+
+                                </span>
+
+                            </div>
+                            <div class="paragraph rL inb"><span>Витамины С.А.<br>
+                                </span>
+                                <div class="hover-block abs">
+                                    Полученный из семян зародышей Амаранта, обеспечивает защитные функции эпидермиса,
+                                    максимально быстро и эффективно транспортирует другие активные вещества вглубь
+                                    кожного покрова. <br> <b>Используется только в самых лучших косметических средствах,
+                                        так как является достаточно дорогостоящим компонентом.</b>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="offer-form">
+            <div class="inner">
+                <form action="http://cc.salesup-crm.com/PostOrder.aspx" method="post" id="second-form" class="box db">
+                    <div class="top-row d-flex flex_just">
+                        <div class="left_side">
+                            <h2> ОФОРМИТЕ ЗАКАЗ <span class="on_desktop"> ПРЯМО СЕЙЧАС</span></h2>
+                            <p> Осталось <span class="green">38</span> акционных упаковок.</p>
+
+                        </div>
+                        <div class="right_side flex_shrink alCenter">
+                            <p class="timer-parag">
+                                Завершение акции через:
+                            </p>
+                            <div class="countdown">
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="btns-row d-flex flex_just">
+                        <div class="input-block w30"><input type="text" class="inputbox" placeholder="Ваше имя"
+                                name="name" required></div>
+                        <div class="input-block w30"><input type="text" placeholder="Ваш номер" name="phone"
+                                class="numbox inputbox phone-mask" required></div>
+                        <button type="submit" class="btn2 db w30">ЗАКАЗАТЬ СО СКИДКОЙ</button>
+
+                        <input name="product_id" type="hidden" value="6972" />
+                        <input name="result_url" type="hidden" value="" />
+                        <input name="referrer" type="hidden" value="" />
+                        <input name="order_url" type="hidden" value="" />
+                        <input name="transaction_id" type="hidden" value="0" />
+                        <input name="partner_id" type="hidden" value="0" />
+                        <input name="link_id" type="hidden" value="0" />
+                    </div>
+                </form>
+
+                <script>
+                    var form2 = document.getElementById("second-form");
+                    form2.addEventListener("submit", function (event) {
+                        var name = form2.elements.name.value;
+                        var phone = form2.elements.phone.value;
+    
+                        var memory5 = window.location.search;
+    
+                        if (memory5) {
+                            var result_url = "http://attlas.com.ua/drsheberg/order.html" + memory5 + "&name=" + name +
+                                "&phone=" + phone;
+                        } else {
+                            var result_url = "http://attlas.com.ua/drsheberg/order.html?name=" + name + "&phone=" + phone;
+                        }
+                        form2.elements.result_url.value = result_url;
+                    });
+                </script>
+            </div>
+        </div>
+        <div class="about-prod">
+            <div class="inner">
+                <div class="row d-flex flex_vcenter ">
+                    <div class="img_block">
+                        <img class="lazy abs b0 r0" data-original="img/round-img1.png" alt="">
+
+                    </div>
+                    <div class="text__block border">
+                        <h3>ДОКТОР МАРК ШЕБЕРГ</h3>
+                        <p>
+                            Известный своими достижениями в области медицины и косметологии в течении 3 лет исследований
+                            и опытов совместно с передовыми лабораториями Швейцарии и Франции, совершили прорыв в
+                            косметологии - вывели формулу при которой сквален стабилен, не изменяет форму и может
+                            храниться более года, не окисляясь и сохраняя первозданные полезные свойства, что было
+                            невозможно ранее.
+                        </p>
+
+                    </div>
+                </div>
+                <div class="row d-flex">
+                    <div class="item w50 box d-flex">
+                        <div class="icon round">
+
+                        </div>
+                        <div class="right_side">
+                            <h3>
+                                Инновационные <br> запатентованные <br> компоненты <span class="green">Squalenus®</span>
+                            </h3>
+                            <p>
+                                Которые <b>играют ключевую роль в борьбе процессами старения кожи</b> “включают" систему
+                                <b>восстановление и синтез</b> глубоких слоев кожи: <b> коллагена, эластина и
+                                    гиалуроновой кислоты</b>.
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="item w50 box d-flex">
+                        <div class="icon round">
+
+                        </div>
+                        <div class="right_side">
+                            <h3>
+                                Технология <span class="green">Ultradense®</span>
+                            </h3>
+                            <p>
+                                <b> Созданная и запатентованная лабораторий Dr.Sheberg</b> позволяет производить
+                                эмульсии для косметических продуктов с использованием ультразвука. Это позволяет
+                                расщепить крем до мельчайших наночастиц, которые способны проникать в самые нижние слои
+                                кожи.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row d-flex flex_vcenter flex_reverse">
+                    <div class="img_block">
+                        <span class="db rL h100 cover round"
+                            style="background-image: url(img/about-prod-img2.jpg);"></span>
+                    </div>
+                    <div class="text__block">
+                        <h3>ДЕЙСТВИЕ СКВАЛЕНА</h3>
+                        <p>
+                            Сквален моментально “транспортирует” коллаген, гиалуроновую кислоту, витамины и
+                            микроэлементы вглубь эпидермиса, ускоряет процессы регенерации клеток и борется с вредным
+                            воздействием свободных радикалов и УФ излучением. Кроме того, сквален превосходно
+                            восстанавливает и заживляет роговой слой кожи, блокирует воспалительные процессы и укрепляет
+                            ее иммунитет.
+                        </p>
+
+                    </div>
+                </div>
+                <div class="row d-flex flex_vcenter">
+                    <div class="img_block">
+                        <span class="db rL h100 cover round"
+                            style="background-image: url(img/about-prod-img3.jpg);"></span>
+                    </div>
+                    <div class="text__block">
+                        <h3>КОМПЛЕКС <br><span class="green">DR. SHEBERG ANTI AGE</span>
+
+                        </h3>
+                        <p>
+                            Запуская обменные процессы на клеточном уровне, приводит к восстановлению тканей до уровня,
+                            свойственного молодому здоровому организму.
+                            Сквален можно назвать «чрезвычайно совместимым компонентом», кожа «распознает» его как
+                            своего и хорошо впитывает. Он быстро проникает в кожу, смягчая и увлажняя ее.
+
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="effect__block">
+            <div class="inner">
+                <div class="row d-flex w100 flex_vcenter ">
+                    <h2 class="flex_shrink">
+                        <span class="green">Доказанный эффект</span> <br>уже через 15 дней регулярного
+                        <br>Использования*
+                    </h2>
+                    <div class="right_side rL box">
+                        <h3 class="upp">Результаты исследования у тест-групп:</h3>
+                        <p>*В исследовании принимали участие <b>1250 женщин <br> от 30 до 70 лет</b> с разными типами
+                            кожи.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="block6 block">
+            <div class="block6_limit limit">
+
+                <p class="alCenter title">
+                    Клинически доказанный результат <br><b>за 4 недели применения:</b>
+                </p>
+                <div class="ib d-flex flex_just row">
+                    <div class="ib-item block6_ib-item">
+                        <div class="wow circle circle-1">
+                            <canvas class=" canvas1 h100 w100 "></canvas>
+                        </div>
+                        <img src="img/cirlce-icon1.png" alt="">
+                        <p>Морщины
+                            <br> разглажены</p>
+                    </div>
+                    <div class="ib-item block6_ib-item">
+                        <div class="wow circle circle-2">
+                            <canvas class="canvas canvas2 h100 w100"></canvas>
+                        </div>
+                        <img src="img/cirlce-icon2.png" alt="">
+                        <p>Кожа подтянутая
+                            <br> и упругая</p>
+                    </div>
+                    <div class="ib-item block6_ib-item">
+                        <div class="wow circle circle-3">
+                            <canvas class="canvas canvas3 h100 w100"></canvas>
+                        </div>
+                        <img src="img/cirlce-icon3.png" alt="">
+                        <p>Четкие
+                            <br> контуры лица</p>
+                    </div>
+                    <div class="ib-item block6_ib-item">
+                        <div class="wow circle circle-4">
+                            <canvas class="canvas canvas4 h100 w100"></canvas>
+                        </div>
+                        <img src="img/cirlce-icon4.png" alt="">
+                        <p>Тон кожи ровный
+                            <br> и сияющий</p>
+                    </div>
+                </div>
+                <a class="btn2 main-prod">
+                    ЗАКАЗАТЬ СО СКИДКОЙ
+                </a>
+
+            </div>
+        </div>
+        <section class="reviews_users">
+            <div class="inner">
+                <h2 class="alCenter">Отзывы реальных клиентов</h2>
+                <div class="slider-rewievs slider-one-item rL">
+                    <div class="slick-item">
+                        <div class="item d-flex flex_vcenter">
+                            <div class="image_block  rL hid ">
+                                <img class="lazy" data-original="img/twentytwenty1.jpg" alt="">
+
+                            </div>
+                            <div class="body_review box">
+                                <span class="name db">Наталья </span>
+                                <span class="db man-info">г. Киев, 45 лет</span>
+                                <p>
+                                    «Когда у меня закончился крем для лица – решила попробовать новинку - приобрела крем
+                                    от «Доктор Шеберг». До этого пробовала различные кремы для нормальной и
+                                    комбинированной кожи – как дорогие так и не очень. Существенный недостаток всех
+                                    предшествующих кремов - после применения, практически всегда излишки крема убирала с
+                                    лица салфеткой. Но после действия этого крема я напрочь забыла об этом! Мягкая
+                                    текстура и быстрое впитывание в кожу оставляет после себя приятное ощущения комфорта
+                                    и свежести, как после посещения дорогого салона косметологии. Плюс к этому приятный
+                                    аромат натуральных компонентов, которые входят в состав. Работает просто на отлично!
+                                    В это сложно поверить, но эффект действительно есть. Месяц пользуюсь и до сих пор
+                                    нахожусь под впечатлением. Продукция отличная, рекомендую всем девушкам и женщинам
+                                    разных возрастов!»
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slick-item">
+                        <div class="item d-flex flex_vcenter">
+                            <div class="image_block  rL hid srav-photo">
+                                <img class="lazy" data-original="img/twentytwenty3.jpg" alt="">
+                            </div>
+                            <div class="body_review box">
+                                <span class="name db">Людмила</span>
+                                <span class="db man-info">г. Николаев, 60 лет</span>
+                                <p>
+                                    «Пользуюсь продукцией Доктор Шеберг - АНАЛОГОВ НЕТ, особенно впечатлило гидрофильное
+                                    масло. Раньше пробовала разные премиальные бренды, все не подходило, сушило и очень
+                                    стягивало кожу, сейчас я забыла про эти неприятные ощущения. Дневной и ночной крем
+                                    просто находка! После применения, кожа в действительности выглядит напитанной и
+                                    сияющей, разглаживаются мелкие морщинки, очень гладенькая и мягкая. При чем это
+                                    ощущение сразу после первого применения. Пользуюсь всей серией (гидрофильное масло,
+                                    ночной и дневной крем), чёрных точек в проблемных местах заметно стало меньше, кожа
+                                    бархатистая и ухоженная. Много перепробовала уходовых средств для лица и не могла
+                                    найти своё. Очень рада, что попробовала серию лечебной косметики Dr.Sheberg, она
+                                    оказалась для меня лучшей из лучших. Рекомендую!!! Покупайте,не пожалеете! Косметика
+                                    мега-крутая!»
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </section>
+
+        <!--
+            <section class="video_reviews">
+                <div class="inner">
+                    <h2 class="alCenter">Видеоотзывы
+                    </h2>
+                    <div class="row box">
+                        <div class="fleft w50">
+                            <a class="item d-flex flex_vcenter">
+                                <span class="left_side box">
+                                    <b>Dr. Sheberg</b> - это просто фантастика! Лучшее вложение средств!
+                                </span>
+                                <span class="img_block h100 w50 flex_shrink">
+                                    <span class="db rL h100 cover" style="background-image: url(img/review-img.jpg);"></span>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="fleft w50">
+                            <a class="item d-flex flex_vcenter">
+                                <span class="left_side box">
+                                    <b>Dr. Sheberg</b> - это просто фантастика! Лучшее вложение средств!
+                                </span>
+                                <span class="img_block h100 w50 flex_shrink">
+                                    <span class="db rL h100 cover" style="background-image: url(img/review-img.jpg);"></span>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="fleft w50">
+                            <a class="item d-flex flex_vcenter">
+                                <span class="left_side box">
+                                    <b>Dr. Sheberg</b> - это просто фантастика! Лучшее вложение средств!
+                                </span>
+                                <span class="img_block h100 w50 flex_shrink">
+                                    <span class="db rL h100 cover" style="background-image: url(img/review-img.jpg);"></span>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="fleft w50">
+                            <a class="item d-flex flex_vcenter">
+                                <span class="left_side box">
+                                    <b>Dr. Sheberg</b> - это просто фантастика! Лучшее вложение средств!
+                                </span>
+                                <span class="img_block h100 w50 flex_shrink">
+                                    <span class="db rL h100 cover" style="background-image: url(img/review-img.jpg);"></span>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </section>
+            -->
+        <section class="certificates">
+            <div class="inner">
+                <h2 class="alCenter">Наши сертификаты
+                </h2>
+                <div class="slider-slick rL">
+                    <div class="item"><a href="img/sert1.jpg" data-fancybox class="db rL h100 cover">
+                            <img data-lazy="img/sert1.jpg" alt="" class="db h100 w100">
+                        </a></div>
+                    <div class="item"><a href="img/sert2.jpg" data-fancybox class="db rL h100 cover">
+                            <img data-lazy="img/sert2.jpg" alt="" class="db h100 w100">
+                        </a></div>
+                    <div class="item"><a href="img/sert3.jpg" data-fancybox class="db rL h100 cover">
+                            <img data-lazy="img/sert3.jpg" alt="" class="db h100 w100">
+                        </a></div>
+
+                    <div class="item"><a href="img/sert5.jpg" data-fancybox class="db rL h100 cover">
+                            <img data-lazy="img/sert5.jpg" alt="" class="db h100 w100">
+                        </a></div>
+                    <div class="item"><a href="img/sert6.jpg" data-fancybox class="db rL h100 cover">
+                            <img data-lazy="img/sert6.jpg" alt="" class="db h100 w100">
+                        </a></div>
+                    <div class="item"><a href="img/sert7.jpg" data-fancybox class="db rL h100 cover">
+                            <img data-lazy="img/sert7.jpg" alt="" class="db h100 w100">
+                        </a></div>
+
+                </div>
+
+            </div>
+        </section>
+        <section class="opinions__block">
+            <div class="inner">
+                <h2 class="alCenter">
+                    независимое мнение косметологов
+
+                </h2>
+                <div class="slider-rewievs slider-one-item rL">
+                    <div class="slick-item">
+                        <div class="item d-flex flex_vcenter">
+                            <div class="image_block h100 rL hid">
+                                <span class="db rL h100 cover" style="background-image: url(img/expert-img.jpg);">
+
+                                </span>
+                            </div>
+                            <div class="body_review box">
+                                <h3>И пусть думают, что это пластика...</h3>
+                                <p>
+                                    Если бы я была на месте Вашего косметолога, то конечно бы постаралась предложить Вам
+                                    максимум из того, что умею и из того, что доступно технологиям красоты: ботокс,
+                                    плазмолифтинг, филлеры и т.д. Но, как человек, как женщина, я понимаю что с
+                                    Dr.Sheberg все эти процедуры можно отложить еще лет на 6.
+                                </p>
+                                <span class="db name">
+                                    Оксана Ислаева
+                                </span>
+                                <span class="db prof">
+                                    Врач косметолог-дерматолог, стаж работы, 10 лет
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slick-item">
+                        <div class="item d-flex flex_vcenter">
+                            <div class="image_block h100 rL hid">
+                                <span class="db rL h100 cover" style="background-image: url(img/expert-img2.jpg);">
+
+                                </span>
+                            </div>
+                            <div class="body_review box">
+                                <h3>Позвольте Вашей коже стать моложе!</h3>
+                                <p>
+                                    Я рекомендую не торопиться с инъекциями, операциями и другими травматичными
+                                    вмешательствами. Оставьте эту идею лет на 20. Просто попробуйте Dr.Sheberg и через 1
+                                    месяц вы поймете, что революция в эстетической медицины произошла. Космецевтика
+                                    (медицинская косметика) - это будующее красоты и молодости, которой мы можем
+                                    пользоваться уже сейчас и наслаждаться результатами.
+                                </p>
+                                <span class="db name">
+                                    Валентина Лекушина
+                                </span>
+                                <span class="db prof">
+                                    Старший ассистент пластического хирурга, стаж практики, 6 лет
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <div class="block9">
+            <div class="prod"></div>
+        </div>
+        <div class="block10 block">
+
+        </div>
+        <footer class="footer">
+            <div class="inner">
+                <div class="row d-flex flex_just">
+                    <div class="left_side">
+                        <h2 class="white">Выглядеть красиво и привлекательно
+                            возможно в <span class="green">любом</span> возрасте!
+                        </h2>
+                        <img class="lazy" data-original="img/footer-img.png" alt="">
+
+                    </div>
+                    <form action="http://cc.salesup-crm.com/PostOrder.aspx" method="post" id="third-form" class="big-form alCenter">
+                        <h2>Внимание. Акция!
+                        </h2>
+                        <p>
+                            Осталось <span class="green">38</span> акционных упаковок.
+                        </p>
+                        <div class="countes d-flex">
+                                    <div class="w50 h100 old d-flex">
+                                        Обычная цена
+                                        <span class="">999грн</span>
+                                    </div>
+                                    <div class="w50 h100 new d-flex">
+                                        Цена со скидкой
+                                        <span>657грн</span>
+                                    </div>
+                                </div>
+                        <div class="countdown">
+
+                        </div>
+
+                        <div class="input-block"><input type="text" class="inputbox" placeholder="Ваше имя" name="name" required>
+                        </div>
+                        <div class="input-block"><input type="text" placeholder="Ваш номер" name="phone"
+                                class="numbox inputbox phone-mask" required></div>
+
+                        <button type="submit" class="btn2 db w100">ЗАКАЗАТЬ СО СКИДКОЙ</button>
+
+                        <input name="product_id" type="hidden" value="6972" />
+                        <input name="result_url" type="hidden" value="" />
+                        <input name="referrer" type="hidden" value="" />
+                        <input name="order_url" type="hidden" value="" />
+                        <input name="transaction_id" type="hidden" value="0" />
+                        <input name="partner_id" type="hidden" value="0" />
+                        <input name="link_id" type="hidden" value="0" />
+                    </form>
+
+                    <script>
+                        var form3 = document.getElementById("third-form");
+                        form3.addEventListener("submit", function (event) {
+                            var name = form3.elements.name.value;
+                            var phone = form3.elements.phone.value;
+        
+                            var memory5 = window.location.search;
+        
+                            if (memory5) {
+                                var result_url = "http://attlas.com.ua/drsheberg/order.html" + memory5 + "&name=" + name +
+                                    "&phone=" + phone;
+                            } else {
+                                var result_url = "http://attlas.com.ua/drsheberg/order.html?name=" + name + "&phone=" + phone;
+                            }
+                            form3.elements.result_url.value = result_url;
+                        });
+                    </script>
+
+                </div>
+
+            </div>
+            <div class="bottom-block">
+                <div class="inner">
+                    <div class="container d-flex flex_just">
+                        <div class="logo on_desktop">
+                            <span class="db rL h100 contain" style="background-image: url(img/logo.png);"></span>
+                        </div>
+                        <p>
+                            ООО “Лаборатория Доктор Шеберг” <br>
+                            ЕГРПОУ 42757612 <br>
+                            <a href="polit-3.html" class="inb on_desktop">Политика конфиденциальности</a>
+                        </p>
+                        <a href="#" class="modal-btn on_mobile">Обратный звонок</a>
+                        <!--<a href="tel:0 800 337 517" class="phone">0 800 337 517</a>-->
+                        <a href="#" class="modal-btn on_desktop">Обратный звонок</a>
+                        <p>
+
+                            <a href="polit-3.html" class="on_mobile">Политика конфиденциальности</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <div class="b-modal modal--close" id="form-close">
+        <div class="modal-content rL">
+            <h3>
+                <i>Так быстро уходите? :)</i>
+            </h3>
+            <h2>
+                У нас есть для вас <br><span>специальное предложение!</span>
+
+            </h2>
+            <h1>
+                50% <span>СКИДКА</span>
+            </h1>
+            <form action="http://cc.salesup-crm.com/PostOrder.aspx" method="post" id="fourth-form" class="big-form">
+                <div class="input-block"><input type="text" placeholder="Ваше имя" name="name" class="inputbox" required></div>
+                <div class="input-block"><input type="text" placeholder="Ваш номер" name="phone" class="inputbox numbox phone-mask" required></div>
+
+                <button type="submit" class="btn2 w100">купить со скидкой</button>
+
+                <input name="product_id" type="hidden" value="6582" />
+                <input name="result_url" type="hidden" value="" />
+                <input name="referrer" type="hidden" value="" />
+                <input name="order_url" type="hidden" value="" />
+                <input name="transaction_id" type="hidden" value="0" />
+                <input name="partner_id" type="hidden" value="0" />
+                <input name="link_id" type="hidden" value="0" />
+            </form>
+
+            <script>
+                var form4 = document.getElementById("fourth-form");
+                form4.addEventListener("submit", function (event) {
+                    var name = form4.elements.name.value;
+                    var phone = form4.elements.phone.value;
+
+                    var memory5 = window.location.search;
+
+                    if (memory5) {
+                        var result_url = "http://attlas.com.ua/drsheberg/order.html" + memory5 + "&name=" + name +
+                            "&phone=" + phone;
+                    } else {
+                        var result_url = "http://attlas.com.ua/drsheberg/order.html?name=" + name + "&phone=" + phone;
+                    }
+                    form4.elements.result_url.value = result_url;
+                });
+            </script>
+            
+            <img src="img/prod-form.png" alt="" class="abs prod">
+            <div class="bottom-block rL">
+                <div class="right_side abs r0 upp">
+                    осталось <div class="inb">38</div> <br>акционных упаковок
+                </div>
+                <div class="garanty rL">
+                    гарантия возврата денег
+                </div>
+            </div>
+            <img src="img/leaf1.png" alt="" class="abs leaf leaf1">
+            <img src="img/leaf2.png" alt="" class="abs leaf leaf2">
+            <img src="img/leaf3.png" alt="" class="abs leaf leaf3">
+            <img src="img/leaf4.png" alt="" class="abs leaf leaf4">
+
+            <div class="b-modal_close rotate arcticmodal-close"></div>
+        </div>
+
+    </div>
+    <div class="g-hidden" style="">
+
+        <div class="b-modal" id="form2">
+            <form action="http://cc.salesup-crm.com/PostOrder.aspx" method="post" id="fifth-form" class="big-form alCenter m0a">
+                <h2>Внимание. Акция!
+                </h2>
+                <p>
+                    Осталось <span class="green">38</span> акционных упаковок.
+                </p>
+                 <p class="timer-parag">
+                            Завершение акции через:
+                        </p>
+                <div class="countdown">
+
+                </div>
+
+                <div class="input-block">
+                    <input type="text" class="inputbox" placeholder="Ваше имя" name="name" required></div>
+                <div class="input-block">
+                    <input type="text" placeholder="Ваш номер" name="phone" class="numbox inputbox phone-mask" required></div>
+
+                <button type="submit" class="btn2 db w100">ОФОРМИТЬ ЗАКАЗ</button>
+
+                <input name="product_id" type="hidden" value="6972" />
+                <input name="result_url" type="hidden" value="" />
+                <input name="referrer" type="hidden" value="" />
+                <input name="order_url" type="hidden" value="" />
+                <input name="transaction_id" type="hidden" value="0" />
+                <input name="partner_id" type="hidden" value="0" />
+                <input name="link_id" type="hidden" value="0" />
+            </form>
+
+            <script>
+                var form5 = document.getElementById("fifth-form");
+                form5.addEventListener("submit", function (event) {
+                    var name = form5.elements.name.value;
+                    var phone = form5.elements.phone.value;
+
+                    var memory5 = window.location.search;
+
+                    if (memory5) {
+                        var result_url = "http://attlas.com.ua/drsheberg/order.html" + memory5 + "&name=" + name +
+                            "&phone=" + phone;
+                    } else {
+                        var result_url = "http://attlas.com.ua/drsheberg/order.html?name=" + name + "&phone=" + phone;
+                    }
+                    form5.elements.result_url.value = result_url;
+                });
+            </script>
+        </div>
+
+        <div class="b-modal modal--form" id="tovar1">
+            <div class="modal-content rL">
+                <div class="img_block rL on_tablet">
+                    <div class="value">
+                        -30%
+                    </div>
+                    <img src="img/tovar1.jpg" alt="">
+                </div>
+                <div class="bottom-block d-flex flex_vcenter on_tablet">
+                    <span class="new">699 грн.</span>
+                    <span class="old">999.00 грн.</span>
+                    <a class="btn prod1">ЗАКАЗАТЬ ПРОДУКТ</a>
+                </div>
+                <div class="modal__title d-flex">
+                    <div class="icon-block">
+                        <span class="db rL h100 contain round"
+                            style="background-image: url(img/modal--icon1.png);"></span>
+                    </div>
+                    <div class="right_side">
+                        <h3>Ночной гель-крем</h3>
+                        <p>
+                            со скваленом и коллагеном
+                        </p>
+                    </div>
+                </div>
+                <div class="row d-flex w100">
+                    <div class="left_side">
+                        <h4>АЛЬТЕРНАТИВА ИНЬЕКЦИЯМ КОЛЛАГЕНА <br>
+                            ДЕЙСТВУЮЩИЕ ВЕЩЕСТВА:</h4>
+                        <p>
+                            Сквален, Тимохинон, Коллаген, Биотин (В7), Милиацин, Супер Омега (3, 6, 7, 9), Витамин Е
+                            (Токоферол ), Витамины С, А. Гиалуроновая кислота. Масла холодного отжима амаранта, чернoго
+                            тмина, макадамии.
+                        </p>
+                        <ul>
+                            <li>
+                                Увеличивает количество и качество коллагена в коже
+                            </li>
+                            <li>Запускает механизмы клеточного обновления, активизирует синтез коллагена</li>
+                            <li>Обладает мощным лифтинг - эффектом</li>
+                            <li>Энергетически подпитывает кожу, стимулирует, пробуждает, омолаживает.</li>
+                        </ul>
+                        <p>
+                            <b>РЕЗУЛЬТАТ:</b><br>
+                            гладкая, эластичная и упругая кожа - сияющая красотой и здоровьем.
+                        </p>
+                        <div class="bottom-block d-flex flex_vcenter on_desktop2">
+                            <span class="new">699 грн.</span>
+                            <span class="old">999.00 грн.</span>
+                            <a class="btn prod1">ЗАКАЗАТЬ СО СКИДКОЙ</a>
+                        </div>
+
+                    </div>
+                    <div class="img_block rL on_desktop2">
+                        <div class="value">
+                            -30%
+                        </div>
+                        <img src="img/tovar1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="b-modal_close rotate arcticmodal-close"></div>
+            </div>
+        </div>
+        <div class="b-modal modal--form" id="tovar2">
+            <div class="modal-content rL">
+                <div class="img_block rL on_tablet">
+                    <div class="value">
+                        -30%
+                    </div>
+                    <img src="img/tovar2.jpg" alt="">
+                </div>
+                <div class="bottom-block d-flex flex_vcenter on_tablet">
+                    <span class="new">657 грн.</span>
+                    <span class="old">999.00 грн.</span>
+                    <a class="btn prod2">ЗАКАЗАТЬ ПРОДУКТ</a>
+                </div>
+                <div class="modal__title d-flex">
+                    <div class="icon-block">
+                        <span class="db rL h100 contain round"
+                            style="background-image: url(img/modal--icon2.png);"></span>
+                    </div>
+                    <div class="right_side">
+
+                        <h3>Дневной гель-крем</h3>
+                        <p>
+                            со скваленом и гиалуроновой кислотой
+                        </p>
+                    </div>
+                </div>
+                <div class="row d-flex w100">
+                    <div class="left_side">
+
+                        <h4>АЛЬТЕРНАТИВА ИНЬЕКЦИЯМ гиалуроновой кислоты <br>
+                            <span class="green"> УВЕЛИЧИВАЕТ СИНТЕЗ ГИАЛУРОНОВОЙ КИСЛОТЫ В 4 РАЗА.</span>
+                            <br>
+                            ДЕЙСТВУЮЩИЕ ВЕЩЕСТВА:</h4>
+                        <p>
+                            Сквален, Гиалуроновая кислота, Тимохинон, Биотин(Б7), Супер омега (3,6,7,9), Витамин А,
+                            Витамин Е (токоферол), Витамин С, Коллаген. Масла холодного отжима амаранта, черного тмина,
+                            макадамии.
+                        </p>
+                        <ul>
+                            <li>
+                                Увеличивает синтез гиалуроновой кислоты в 4 раза
+                            </li>
+                            <li>Уменьшает акне, снимает воспаление и отек</li>
+                            <li>Оказывает противовирусное, антибактериальное и антимикробное действие</li>
+                            <li>Ускоряет заживление повреждений кожи.</li>
+                        </ul>
+                        <p>
+                            <b>РЕЗУЛЬТАТ:</b><br>
+                            Красивая, увлажненная кожа без признаков усталости и старения. <br> Ровный, здоровый цвет
+                            лица.
+                        </p>
+                        <div class="bottom-block d-flex flex_vcenter on_desktop2">
+                            <span class="new">657 грн.</span>
+                            <span class="old">999.00 грн.</span>
+                            <a class="btn prod2">ЗАКАЗАТЬ СО СКИДКОЙ</a>
+                        </div>
+
+                    </div>
+                    <div class="img_block rL on_desktop2">
+                        <div class="value">
+                            -30%
+                        </div>
+                        <img src="img/tovar2.jpg" alt="">
+                    </div>
+                </div>
+                <div class="b-modal_close rotate arcticmodal-close"></div>
+            </div>
+        </div>
+        <div class="b-modal modal--form" id="tovar3">
+            <div class="modal-content rL">
+                <div class="img_block rL on_tablet">
+                    <div class="value">
+                        -30%
+                    </div>
+                    <img src="img/tovar3.jpg" alt="">
+                </div>
+                <div class="bottom-block d-flex flex_vcenter on_tablet">
+                    <span class="new">657 грн.</span>
+                    <span class="old">999.00 грн.</span>
+                    <a class="btn prod3">ЗАКАЗАТЬ ПРОДУКТ</a>
+                </div>
+                <div class="modal__title d-flex">
+                    <div class="icon-block">
+                        <span class="db rL h100 contain round"
+                            style="background-image: url(img/modal--icon3.png);"></span>
+                    </div>
+                    <div class="right_side">
+
+                        <h3>Масло гидрофильное</h3>
+                        <p class="inb">
+                            глубокое очищение
+                        </p>
+                    </div>
+                </div>
+                <div class="row d-flex w100">
+                    <div class="left_side">
+
+                        <h4 class="mb-big">
+                            ДЕЙСТВУЮЩИЕ ВЕЩЕСТВА:</h4>
+                        <p class="mb-big">
+                            Конопляное масло холодного отжима, масло расторопши холодного отжима, масло амаранта
+                            холодного отжима, масло чёрного тмина холодного отжима. Полисорбат-80, витамины А, Е.
+                        </p>
+
+                        <p>
+                            <b>РЕЗУЛЬТАТ:</b><br>
+                            Чистая, не пересушенная, гладкая кожа, подготовленная к глубокому увлажнению.
+                        </p>
+                        <div class="bottom-block d-flex flex_vcenter on_desktop2">
+                            <span class="new">499 грн.</span>
+                            <span class="old">713.00 грн.</span>
+                            <a class="btn prod3">ЗАКАЗАТЬ СО СКИДКОЙ</a>
+                        </div>
+
+                    </div>
+                    <div class="img_block rL on_desktop2">
+                        <div class="value">
+                            -30%
+                        </div>
+                        <img src="img/tovar3.jpg" alt="">
+                    </div>
+                </div>
+                <div class="b-modal_close rotate arcticmodal-close"></div>
+            </div>
+        </div>
+
+        <div class="b-modal modal--more-quest" id="form-quest">
+            <form action="http://cc.salesup-crm.com/PostOrder.aspx" method="post" id="sixth-form" class="modal-content rL">
+                <a href="#" class="abs logo">
+                    <img src="img/logo-modal.jpg" alt="">
+                </a>
+                <h3 class="alCenter">
+                    У вас остались вопросы?
+                </h3>
+                <h4 class="alCenter">
+                    Давайте мы перезвоним вам.
+                </h4>
+                <div class="text_block d-flex">
+                    <div class="img-block">
+                        <span class="db rL h100 contain round" style="background-image: url(img/form-image.jpg);">
+                        </span>
+                    </div>
+                    <p>
+                        Наш оператор проконсультирует
+                        по всем возникшим вопросам!
+                    </p>
+                </div>
+                <div class="input-block">
+                    <input type="text" name="name" placeholder="Ваше имя" required>
+                </div>
+                <div class="input-block">
+                    <input type="text" name="phone" placeholder="Ваш номер телефона" class="phone-mask" required>
+                </div>
+                <div class="input-block not-display-bg">
+                    <button type="submit" class="w100 btn2">ПЕРЕЗВОНИТЕ МНЕ СЕЙЧАС </button>
+                </div>
+
+                <input name="product_id" type="hidden" value="6972" />
+                <input name="result_url" type="hidden" value="" />
+                <input name="referrer" type="hidden" value="" />
+                <input name="order_url" type="hidden" value="" />
+                <input name="transaction_id" type="hidden" value="0" />
+                <input name="partner_id" type="hidden" value="0" />
+                <input name="link_id" type="hidden" value="0" />
+            </form>
+            <script>
+                var form6 = document.getElementById("sixth-form");
+                form6.addEventListener("submit", function (event) {
+                    var name = form6.elements.name.value;
+                    var phone = form6.elements.phone.value;
+
+                    var memory5 = window.location.search;
+
+                    if (memory5) {
+                        var result_url = "http://attlas.com.ua/drsheberg/order.html" + memory5 + "&name=" + name +
+                            "&phone=" + phone;
+                    } else {
+                        var result_url = "http://attlas.com.ua/drsheberg/order.html?name=" + name + "&phone=" + phone;
+                    }
+                    form6.elements.result_url.value = result_url;
+                });
+            </script>
+            <div class="b-modal_close rotate arcticmodal-close"></div>
+        </div>
+        <div class="b-modal modal--close rL" id="form-close">
+            <div class="modal-content rL">
+                <h3>
+                    <i>Так быстро уходите? :)</i>
+                </h3>
+                <h2>
+                    У нас есть для вас <br><span>специальное предложение <span
+                            class="on_mobile">предложение!</span></span>
+
+                </h2>
+                <h1>
+                    50% <span>СКИДКА</span>
+                </h1>
+                <form action="http://cc.salesup-crm.com/PostOrder.aspx" method="post" id="seventh-form" class="big-form">
+                    <div class="input-block"><input type="text" placeholder="Ваше имя" name="name" class="inputbox" required>
+                    </div>
+                    <div class="input-block"><input type="text" placeholder="Ваш номер" name="phone"
+                            class="inputbox numbox phone-mask" required></div>
+                    <button type="submit" class="btn2 w100">купить со скидкой</button>
+
+                    <input name="product_id" type="hidden" value="6582" />
+                    <input name="result_url" type="hidden" value="" />
+                    <input name="referrer" type="hidden" value="" />
+                    <input name="order_url" type="hidden" value="" />
+                    <input name="transaction_id" type="hidden" value="0" />
+                    <input name="partner_id" type="hidden" value="0" />
+                    <input name="link_id" type="hidden" value="0" />
+                </form>
+
+                <script>
+                    var form7 = document.getElementById("seventh-form");
+                    form7.addEventListener("submit", function (event) {
+                        var name = form7.elements.name.value;
+                        var phone = form7.elements.phone.value;
+    
+                        var memory5 = window.location.search;
+    
+                        if (memory5) {
+                            var result_url = "http://attlas.com.ua/drsheberg/order.html" + memory5 + "&name=" + name +
+                                "&phone=" + phone;
+                        } else {
+                            var result_url = "http://attlas.com.ua/drsheberg/order.html?name=" + name + "&phone=" + phone;
+                        }
+                        form7.elements.result_url.value = result_url;
+                    });
+                </script>
+
+                <img src="img/prod-form.png" alt="" class="abs prod">
+                <div class="bottom-block rL">
+                    <div class="right_side abs r0 upp">
+                        осталось <div class="inb">38</div> <br>акционных упаковок
+                    </div>
+                    <div class="garanty rL">
+                        гарантия возврата денег
+                    </div>
+                </div>
+
+            </div>
+            <img src="img/leaf1.png" alt="" class="abs leaf leaf1">
+            <img src="img/leaf2.png" alt="" class="abs leaf leaf2">
+            <img src="img/leaf3.png" alt="" class="abs leaf leaf3">
+            <img src="img/leaf4.png" alt="" class="abs leaf leaf4">
+            <div class="b-modal_close rotate arcticmodal-close"></div>
+        </div>
+    </div>
+
+    <script src="js/dscountdown.min.js"></script>
+    <script src="js/parallax.js"></script>
+
+    <script src="js/jquery.fancybox.min.js"></script>
+    <!--
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mhayes-twentytwenty/1.0.0/js/jquery.twentytwenty.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mhayes-twentytwenty/1.0.0/js/jquery.event.move.min.js"></script> -->
+
+    <script src="js/progressbar.js"></script>
+    <script src="js/waterbubble.min.js"></script>
+    <script src="js/viewportchecker.js"></script>
+
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/jquery.arcticmodal.js"></script>
+    <script src="js/jquery.lazyload.min.js"></script>
+    <script src="js/slick.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+    <script type="text/javascript" src="js/chekerab.js"></script>
+    <link type="text/css" rel="stylesheet" href="css/freez_widget.css">
+    <script type="text/javascript">
+        var woman = 1;
+    </script>
+    <script type="text/javascript" src="js/buyer-script.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        jQuery(document).ready(function ($) {
+            var BigDay = new Date();
+            BigDay.setHours(BigDay.getHours()+4);
+            //BigDay.setMinutes(BigDay.getMinutes()-0);
+            BigDay.setSeconds(BigDay.getSeconds()-1);
+            $('.countdown').dsCountDown({
+                endDate: BigDay, //new Date("Jule 18, 2019 23:59:00"),
+                titleDays: 'Дней', // Set the title of days
+                titleHours: 'Часов', // Set the title of hours
+                titleMinutes: 'Минут', // Set the title of minutes
+                titleSeconds: 'Секунд', // Set the title of seconds
+
+            });
+        });
+    </script>
+
+    <script>
+		$(document).on('click', '.prod1', function (e) {
+			$('#fifth-form input[name=product_id]').val(6582);
+		});
+		$(document).on('click', '.prod2', function (e) {
+			$('#fifth-form input[name=product_id]').val(6916);
+		});
+		$(document).on('click', '.prod3', function (e) {
+			$('#fifth-form input[name=product_id]').val(6921);
+		});
+		$(document).on('click', '.main-prod', function (e) {
+			$('#fifth-form input[name=product_id]').val(6972);
+		});
+    </script>
+    
+    <script src="js/jquery.maskedinput.js"></script>
+    <script>
+        // mask
+        $(".phone-mask").inputmask({
+            mask: "+38 (999) 999-99-99",
+            groupmarker: { start: "(", end: ")" }
+        });
+    </script>
+
+	<img style="display:none" id="set_cookie" src="" />
+</body>
+
+</html>

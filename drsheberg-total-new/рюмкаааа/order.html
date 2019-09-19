@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, width=device-width">
+    <title>Dr.Sheberg</title>
+
+    <link rel="stylesheet" href="fonts/fonts.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/adaptive.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+    <script src="js/dscountdown.min.js"></script>
+    <script src="js/parallax.js"></script>
+
+    <script src="js/jquery.fancybox.min.js"></script>
+    <!--
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mhayes-twentytwenty/1.0.0/js/jquery.twentytwenty.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mhayes-twentytwenty/1.0.0/js/jquery.event.move.min.js"></script> -->
+
+    <script src="js/progressbar.js"></script>
+    <script src="js/waterbubble.min.js"></script>
+    <script src="js/jquery.lazyload.min.js"></script>
+    <script src="js/viewportchecker.js"></script>
+
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/jquery.arcticmodal.js"></script>
+
+    <script src="js/slick.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+    <style>
+        .js_errorMessage {
+            z-index: 9999;
+        }
+    </style>
+
+    <script src="http://js.salesup-crm.com/channels/js/channels.js" defer></script>
+    <!-- Facebook Pixel Code -->
+    <script>
+        ! function (f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '379870565953019');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=379870565953019&ev=PageView&noscript=1" /></noscript>
+    <!-- End Facebook Pixel Code -->
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140616641-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-140616641-1');
+    </script>
+</head>
+
+<body>
+    <script>
+        fbq('track', 'Purchase');
+    </script>
+
+    <div class="main rL hid inside__page">
+
+        <header class="header inside__page">
+            <div class="inner d-flex">
+                <div class="row d-flex flex_vcenter flex_just w100">
+                    <div class="left_side d-flex flex_vcenter">
+                        <div class="logo">
+                            <span class="db rL h100 contain" style="background-image: url(img/logo.png);"></span>
+                        </div>
+                        <p class="slogan rL">
+                            Уникальная омолаживающая косметика. <br>
+                            Молодость можно вернуть!
+                        </p>
+
+                    </div>
+                    <div class="right_side">
+                        <!--<a href="#" class="phone">0 800 337 517</a>-->
+                        <a class="modal-btn">Обратный звонок</a>
+                    </div>
+                </div>
+
+            </div>
+        </header>
+        <h1 class="alCenter">
+            <span id="visitorName"></span>, НАША КОМАНДА ВЫРАЖАЕТ ВАМ БЛАГОДАРНОСТЬ
+            <script>
+                var visitorName = document.getElementById("visitorName");
+                var url_string = window.location.href;
+                var url = new URL(url_string);
+                var paramValue = url.searchParams.get("name");
+                visitorName.innerHTML = paramValue;
+            </script>
+        </h1>
+        <p class="alCenter">
+            и подготовила для Вас специальное предложение
+        </p>
+        <div class="inside__container">
+            <div class="inner rL h100">
+                <div class="container d-flex">
+                    <div class="content-block w100">
+                        <div class="item active" id="first-product">
+                            <div class="title-block d-flex">
+                                <label class="check rL cp">
+                                    <!-- <input type="checkbox" checked name="check" class="hide"> -->
+                                    <b class="abs" id="first-product-icon"></b>
+                                    <span>Предложение действует <br>в течении 1 минуты</span>
+                                </label>
+                                <div class="countdown2">
+
+                                </div>
+
+                            </div>
+                            <div class="body-block box rL">
+                                <p>
+                                    <b>Максимальный эффект.</b> Полный комплекс продуктов Dr.Sheberg Anti-Age включает в
+                                    себя:
+                                </p>
+                                <ul>
+                                    <li>масло гидрофильное для умывания</li>
+                                    <li>дневной гель-крем со скваленом и гиалуроновой кислотой</li>
+                                    <li>ночной гель-крем со скваленом и коллагеном</li>
+                                </ul>
+                                <img src="img/img31.jpg" alt="" class="abs">
+                                <h4>
+
+                                    СУПЕР ПРЕДЛОЖЕНИЕ <br>
+                                    <span>ЭКОНОМИЯ 50%</span>
+
+                                </h4>
+                                <div class="coats-block">
+                                    <span class="new">1 299 грн.</span>
+                                    <span class="old">2 711 грн.</span>
+
+                                </div>
+                                <div class="deliv">
+                                    Бесплатная доставка
+                                </div>
+                                <a href="" onclick="return false" id="firstProductBTN" class="btn alCenter upp db">ВЫБРАТЬ КОМПЛЕКС</a>
+
+                            </div>
+                        </div>
+                        <div class="item" id="second-product">
+                            <div class="title-block d-flex">
+                                <label class="check rL cp">
+                                    <!-- <input type="checkbox" name="check" class="hide"> -->
+                                    <b class="abs" id="second-product-icon"></b>
+                                    <span>Предложение действует <br>в течении 1 минуты</span>
+                                </label>
+                                <div class="countdown3">
+
+                                </div>
+
+                            </div>
+                            <div class="body-block box rL">
+                                <p class="rL zt200">
+                                    <b>Максимальный эффект.</b> Полный комплекс продуктов Dr.Sheberg Anti-Age включает в
+                                    себя:
+
+                                </p>
+                                <ul class="rL zt200">
+                                    <li>масло гидрофильное для умывания</li>
+                                    <li>дневной гель-крем со скваленом и гиалуроновой кислотой</li>
+                                </ul>
+                                <img src="img/img30.jpg" alt="" class="abs">
+                                <h4 class="rL zt200">
+
+                                    СУПЕР ПРЕДЛОЖЕНИЕ <br>
+                                    <span>ЭКОНОМИЯ 40%</span>
+
+                                </h4>
+                                <div class="coats-block zt200 rL">
+                                    <span class="new">1 018 грн.</span>
+                                    <span class="old">1 712 грн.</span>
+
+                                </div>
+                                <div class="deliv zt200 rL">
+                                    Бесплатная доставка
+                                </div>
+                                <a href="" onclick="return false" id="secondProductBTN" class="btn alCenter upp db rL zt200">ВЫБРАТЬ КОМПЛЕКС</a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right_side">
+                        <form action="http://cc.salesup-crm.com/PostOrder.aspx" method="post" id="mainform" class="big-form">
+                            <h2 class="alCenter">Детали заказа:
+                            </h2>
+                            <div class="input-block"><input required type="text" name="name" placeholder="Ваше имя"
+                                    class="inputbox" required></div>
+                            <div class="input-block"><input required type="text" name="phone" placeholder="Ваш номер"
+                                    class="inputbox numbox phone-mask" required></div>
+                            <div class="input-block"><input required type="text" name="comment" placeholder="Город"
+                                    class="inputbox" required></div>
+                            <button type="submit" class="btn2 w100">ПОДТВЕРДИТЬ ЗАКАЗ</button>
+
+                            <input type="hidden" name="comment" value="">
+                            <input name="product_id" type="hidden" value="6925" />
+                            <input name="result_url" type="hidden"
+                                value="http://attlas.com.ua/drsheberg-total-new/index2.html" />
+                            <input name="referrer" type="hidden" value="" />
+                            <input name="order_url" type="hidden" value="" />
+                            <input name="transaction_id" type="hidden" value="0" />
+                            <input name="partner_id" type="hidden" value="0" />
+                            <input name="link_id" type="hidden" value="0" />
+                        </form>
+                        <div class="soc-block alCenter">
+                            <h2>ПОДПИСЫВАЙТЕСЬ</h2>
+                            <p>на наши социальные сети и получайте дополнительные преимущества:</p>
+
+                            <div class="links d-flex">
+                                <a href="#" class="rotate">
+                                    <img src="img/instagram.svg" alt="">
+                                </a>
+                                <a href="#" class="rotate">
+                                    <img src="img/viber.svg" alt="">
+                                </a>
+                                <a href="#" class="rotate">
+                                    <img src="img/telegram.svg" alt="">
+                                </a>
+                                <a href="#" class="rotate">
+                                    <img src="img/youtube.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="subfooter"></div>
+    </div>
+    <footer class="footer inside__page">
+        <div class="bottom-block">
+            <div class="inner">
+                <div class="container d-flex flex_just">
+                    <div class="logo on_desktop">
+                        <span class="db rL h100 contain" style="background-image: url(img/logo.png);"></span>
+                    </div>
+                    <p>
+                        ООО “Лаборатория Доктор Шеберг” <br>
+                        ЕГРПОУ 42757612 <br>
+                        <a href="polit-3.html" class="inb on_desktop">Политика конфиденциальности</a>
+                    </p>
+                    <a href="#" class="modal-btn on_mobile">Обратный звонок</a>
+                    <!--<a href="tel:0 800 337 517" class="phone">0 800 337 517</a>-->
+                    <a href="#" class="modal-btn on_desktop">Обратный звонок</a>
+                    <p>
+
+                        <a href="polit-3.html" class="on_mobile">Политика конфиденциальности</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="b-modal modal--close" id="form-close">
+        <div class="modal-content rL">
+            <h3>
+                <i>Так быстро уходите? :)</i>
+            </h3>
+            <h2>
+                У нас есть для вас <br><span>специальное предложение<span class="on_mobile">предложение!</span></span>
+            </h2>
+            <h1>
+                50% <span>СКИДКА</span>
+            </h1>
+            <form action="http://cc.salesup-crm.com/PostOrder.aspx" method="post" class="big-form">
+                <div class="input-block"><input type="text" placeholder="Ваше имя" name="name" class="inputbox" required></div>
+                <div class="input-block"><input type="text" placeholder="Ваш номер" name="phone" class="inputbox numbox phone-mask" required></div>
+
+                <button type="submit" class="btn2 w100">купить со скидкой</button>
+
+                <input type="hidden" name="comment" value="">
+                <input name="product_id" type="hidden" value="6582" />
+                <input name="result_url" type="hidden"
+                    value="http://attlas.com.ua/drsheberg-total-new/index2.html" />
+                <input name="referrer" type="hidden" value="" />
+                <input name="order_url" type="hidden" value="" />
+                <input name="transaction_id" type="hidden" value="0" />
+                <input name="partner_id" type="hidden" value="0" />
+                <input name="link_id" type="hidden" value="0" />
+            </form>
+            <img src="img/prod-form.png" alt="" class="abs prod">
+            <div class="bottom-block rL">
+                <div class="right_side abs r0 upp">
+                    осталось <div class="inb">38</div> <br>акционных упаковок
+                </div>
+                <div class="garanty rL">
+                    гарантия возврата денег
+                </div>
+            </div>
+            <img src="img/leaf1.png" alt="" class="abs leaf leaf1">
+            <img src="img/leaf2.png" alt="" class="abs leaf leaf2">
+            <img src="img/leaf3.png" alt="" class="abs leaf leaf3">
+            <img src="img/leaf4.png" alt="" class="abs leaf leaf4">
+
+            <div class="b-modal_close rotate arcticmodal-close"></div>
+        </div>
+
+    </div>
+    <div class="g-hidden">
+
+        <div class="b-modal modal--form" id="tovar1">
+            <div class="modal-content rL">
+                <div class="modal__title d-flex">
+                    <div class="icon-block">
+                        <span class="db rL h100 contain round"
+                            style="background-image: url(img/modal--icon1.png);"></span>
+                    </div>
+                    <div class="right_side">
+                        <h3>Ночной гель-крем</h3>
+                        <p>
+                            со скваленом и гиалуроновой кислотой
+                        </p>
+                    </div>
+                </div>
+                <div class="row d-flex w100">
+                    <div class="left_side">
+                        <h4>АЛЬТЕРНАТИВА ИНЬЕКЦИЯМ КОЛЛАГЕНА <br>
+                            ДЕЙСТВУЮЩИЕ ВЕЩЕСТВА:</h4>
+                        <p>
+                            Сквален, Тимохинон, Коллаген, Биотин (В7), Милиацин, Супер Омега (3, 6, 7, 9), Витамин Е
+                            (Токоферол ), Витамины С.А. Гиалуроновая кислота. Масла холодного отжима амаранта, чернoго
+                            тмина, макадамии.
+                        </p>
+                        <ul>
+                            <li>
+                                Увеличивает количество и качество коллагена в коже
+                            </li>
+                            <li>Запускает механизмы клеточного обновления, активизирует синтез коллагена</li>
+                            <li>Обладает мощным лифтинг - эффектом</li>
+                            <li>Энергетически подпитывает кожу, стимулирует, пробуждает, омолаживает.</li>
+                        </ul>
+                        <p>
+                            <b>РЕЗУЛЬТАТ:</b><br>
+                            гладкая, эластичная и упругая кожа - сияющая красотой и здоровьем.
+                        </p>
+                        <div class="bottom-block d-flex flex_vcenter">
+                            <span class="new">699 грн.</span>
+                            <span class="old">999. 00 грн.</span>
+                            <a class="btn">Заказать</a>
+                        </div>
+
+                    </div>
+                    <div class="img_block rL">
+                        <div class="value">
+                            -30%
+                        </div>
+                        <img src="img/tovar1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="b-modal_close rotate arcticmodal-close"></div>
+            </div>
+        </div>
+
+        <div class="b-modal modal--more-quest" id="form-quest">
+            <form action="http://cc.salesup-crm.com/PostOrder.aspx" method="post" class="modal-content rL">
+                <a href="#" class="abs logo">
+                    <img src="img/logo-modal.jpg" alt="">
+                </a>
+                <h3 class="alCenter">
+                    У вас остались вопросы?
+                </h3>
+                <h4 class="alCenter">
+                    Давайте мы перезвоним вам.
+                </h4>
+                <div class="text_block d-flex">
+                    <div class="img-block">
+                        <span class="db rL h100 contain round" style="background-image: url(img/form-image.jpg);">
+                        </span>
+                    </div>
+                    <p>
+                        Наш оператор позвонит вам и проконсультирует
+                        по всем вопросам!
+                    </p>
+                </div>
+                <div class="input-block">
+                        <input type="text" name="name" placeholder="Ваше имя" required>
+                    </div>
+                <div class="input-block">
+                    <input type="text" name="phone" placeholder="Ваш номер телефона" class="phone-mask" required>
+                </div>
+                <div class="input-block not-display-bg">
+                    <button type="submit" class="w100 btn2">ПЕРЕЗВОНИТЕ МНЕ СЕЙЧАС </button>
+                </div>
+
+                <input name="product_id" type="hidden" value="6925" />
+                <input name="result_url" type="hidden" value="http://attlas.com.ua/drsheberg-total-new/index2.html">
+                <input name="referrer" type="hidden" value="" />
+                <input name="order_url" type="hidden" value="" />
+                <input name="transaction_id" type="hidden" value="0" />
+                <input name="partner_id" type="hidden" value="0" />
+                <input name="link_id" type="hidden" value="0" />
+            </form>
+            <div class="b-modal_close rotate arcticmodal-close"></div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="js/chekerab.js"></script>
+    <link type="text/css" rel="stylesheet" href="css/freez_widget.css">
+    <script type="text/javascript">
+        var woman = 1;
+    </script>
+    <script type="text/javascript" src="js/buyer-script.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        jQuery(document).ready(function ($) {
+            var BigDay = new Date();
+            //BigDay.setHours(BigDay.getHours()+4);
+            BigDay.setMinutes(BigDay.getMinutes()+5);
+            //BigDay.setSeconds(BigDay.getSeconds());
+            $('.countdown').dsCountDown({
+                endDate: BigDay, //new Date("Jule 18, 2019 23:59:00"),
+                titleDays: 'Дней', // Set the title of days
+                titleHours: 'Часов', // Set the title of hours
+                titleMinutes: 'Минут', // Set the title of minutes
+                titleSeconds: 'Секунд', // Set the title of seconds
+
+            });
+        });
+    </script>
+    <script>
+        jQuery(document).ready(function ($) {
+            var BigDay2 = new Date();
+            //BigDay2.setHours(BigDay2.getHours()+4);
+            BigDay2.setMinutes(BigDay2.getMinutes()+1);
+            BigDay2.setSeconds(BigDay2.getSeconds()-1);
+            $('.countdown2').dsCountDown({
+                endDate: BigDay2, //new Date("Jule 18, 2019 23:59:00"),
+                titleDays: 'Дней', // Set the title of days
+                titleHours: 'Часов', // Set the title of hours
+                titleMinutes: 'Минут', // Set the title of minutes
+                titleSeconds: 'Секунд', // Set the title of seconds
+
+            });
+            var BigDay3 = new Date();
+            //BigDay3.setHours(BigDay3.getHours()+4);
+            BigDay3.setMinutes(BigDay3.getMinutes()+1);
+            BigDay3.setSeconds(BigDay3.getSeconds()-1);
+            $('.countdown3').dsCountDown({
+                endDate: BigDay3, //new Date("Jule 18, 2019 23:59:00"),
+                titleDays: 'Дней', // Set the title of days
+                titleHours: 'Часов', // Set the title of hours
+                titleMinutes: 'Минут', // Set the title of minutes
+                titleSeconds: 'Секунд', // Set the title of seconds
+
+            });
+        });
+        /*jQuery(document).ready(function ($) {
+            var BigDay3 = new Date();
+            //BigDay3.setHours(BigDay3.getHours()+4);
+            BigDay3.setMinutes(BigDay3.getMinutes()+1);
+            //BigDay3.setSeconds(BigDay3.getSeconds()-1);
+            $('.countdown3').dsCountDown({
+                endDate: BigDay3, //new Date("Jule 18, 2019 23:59:00"),
+                titleDays: 'Дней', // Set the title of days
+                titleHours: 'Часов', // Set the title of hours
+                titleMinutes: 'Минут', // Set the title of minutes
+                titleSeconds: 'Секунд', // Set the title of seconds
+
+            });
+        });*/
+    </script>
+
+    <script>
+        $('.check').on('click', function(e){
+            e.preventDefault();
+
+            $('.item').removeClass('active');
+            $(this).closest('.item').addClass('active');
+        })
+
+		var mainform = document.getElementById("mainform");
+		var firstProductIcon = document.getElementById("first-product-icon");
+		var secondProductIcon = document.getElementById("second-product-icon");
+		var firstProductBTN = document.getElementById("firstProductBTN");
+		var secondProductBTN = document.getElementById("secondProductBTN");
+
+
+		mainform.elements.name.value = url.searchParams.get("name");
+		mainform.elements.phone.value = url.searchParams.get("phone");
+
+	
+		function changeProductToFirst(){
+			mainform.elements.product_id.value = 6925;
+		}
+		function changeProductToSecond(){
+			mainform.elements.product_id.value = 6587;
+		}
+
+		firstProductIcon.addEventListener('click', changeProductToFirst, false);
+		secondProductIcon.addEventListener('click', changeProductToSecond, false);
+
+		
+		function changeProductByClickFirstBTN(){
+			firstProductIcon.click();
+		}
+		function changeProductByClickSecondBTN(){
+			secondProductIcon.click();
+		}
+
+		firstProductBTN.addEventListener('click', changeProductByClickFirstBTN, false);
+		secondProductBTN.addEventListener('click', changeProductByClickSecondBTN, false);
+		
+	</script>
+
+    <script src="js/jquery.maskedinput.js"></script>
+    <script>
+        // mask
+        $(".phone-mask").inputmask({
+            mask: "+38 (999) 999-99-99",
+            groupmarker: { start: "(", end: ")" }
+        });
+    </script>
+
+	<img style="display:none" id="set_cookie" src="" />
+</body>
+
+</html>
